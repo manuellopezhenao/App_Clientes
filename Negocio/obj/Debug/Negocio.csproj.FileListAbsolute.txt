@@ -1,0 +1,18 @@
+C:\Users\brahi\source\repos\App_Creditos\Negocio\bin\Debug\Negocio.dll
+C:\Users\brahi\source\repos\App_Creditos\Negocio\bin\Debug\Negocio.pdb
+C:\Users\brahi\source\repos\App_Creditos\Negocio\bin\Debug\Datos.dll
+C:\Users\brahi\source\repos\App_Creditos\Negocio\bin\Debug\Datos.pdb
+C:\Users\brahi\source\repos\App_Creditos\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\brahi\source\repos\App_Creditos\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\brahi\source\repos\App_Creditos\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\brahi\source\repos\App_Creditos\Negocio\obj\Debug\Negocio.dll
+C:\Users\brahi\source\repos\App_Creditos\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Negocio\bin\Debug\Negocio.dll
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Negocio\bin\Debug\Datos.dll
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Negocio\bin\Debug\Datos.pdb
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Negocio\obj\Debug\Negocio.dll
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Negocio\obj\Debug\Negocio.pdb

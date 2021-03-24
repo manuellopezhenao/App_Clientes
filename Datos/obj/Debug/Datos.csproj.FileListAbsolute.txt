@@ -1,0 +1,12 @@
+C:\Users\brahi\source\repos\App_Creditos\Datos\bin\Debug\Datos.dll
+C:\Users\brahi\source\repos\App_Creditos\Datos\bin\Debug\Datos.pdb
+C:\Users\brahi\source\repos\App_Creditos\Datos\obj\Debug\Datos.csprojAssemblyReference.cache
+C:\Users\brahi\source\repos\App_Creditos\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\brahi\source\repos\App_Creditos\Datos\obj\Debug\Datos.dll
+C:\Users\brahi\source\repos\App_Creditos\Datos\obj\Debug\Datos.pdb
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Datos\bin\Debug\Datos.dll
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Datos\bin\Debug\Datos.pdb
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Datos\obj\Debug\Datos.csprojAssemblyReference.cache
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Datos\obj\Debug\Datos.dll
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Datos\obj\Debug\Datos.pdb

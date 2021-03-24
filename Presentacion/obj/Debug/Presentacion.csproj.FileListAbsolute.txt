@@ -1,0 +1,31 @@
+C:\Users\brahi\source\repos\App_Creditos\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\brahi\source\repos\App_Creditos\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\brahi\source\repos\App_Creditos\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\brahi\source\repos\App_Creditos\Presentacion\bin\Debug\Negocio.dll
+C:\Users\brahi\source\repos\App_Creditos\Presentacion\bin\Debug\Negocio.pdb
+C:\Users\brahi\source\repos\App_Creditos\Presentacion\obj\Debug\Presentacion.csprojAssemblyReference.cache
+C:\Users\brahi\source\repos\App_Creditos\Presentacion\obj\Debug\Presentacion.FrmLogin.resources
+C:\Users\brahi\source\repos\App_Creditos\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\brahi\source\repos\App_Creditos\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\brahi\source\repos\App_Creditos\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\brahi\source\repos\App_Creditos\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\brahi\source\repos\App_Creditos\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\brahi\source\repos\App_Creditos\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\brahi\source\repos\App_Creditos\Presentacion\obj\Debug\Presentacion.FrmClientes.resources
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Presentacion\bin\Debug\Negocio.dll
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Presentacion\bin\Debug\Datos.dll
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Presentacion\bin\Debug\Negocio.pdb
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Presentacion\bin\Debug\Datos.pdb
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Presentacion\obj\Debug\Presentacion.csprojAssemblyReference.cache
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Presentacion\obj\Debug\Presentacion.FrmClientes.resources
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Presentacion\obj\Debug\Presentacion.FrmLogin.resources
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Presentacion\obj\Debug\Presentacion.FrmPrincipal.resources
