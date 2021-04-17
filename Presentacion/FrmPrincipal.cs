@@ -39,5 +39,13 @@ namespace Presentacion
             ObjeLogin.Show();
             this.Close();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            FrmCreditos ObjeXreditso = new FrmCreditos();
+            ObjeXreditso.lblUsuario.Text = lblUsuario.Text;
+            ObjeXreditso.ShowDialog();
+            this.Close();
+        }
     }
 }

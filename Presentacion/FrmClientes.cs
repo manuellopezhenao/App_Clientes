@@ -5,8 +5,11 @@ using System.Collections.Generic;
 
 namespace Presentacion
 {
+
     public partial class FrmClientes : Form
     {
+        Dictionary<String, String> cliente = new Dictionary<string, String>();
+
         public FrmClientes()
         {
             InitializeComponent();
@@ -166,9 +169,7 @@ namespace Presentacion
 
         private void btnSupri_Click(object sender, EventArgs e)
         {
-            var = "";
-            txtId.Clear();
-            contador = 0;
+            Fnt_Limpiar();
         }
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
@@ -266,6 +267,11 @@ namespace Presentacion
 
         }
 
+        protected void Fnt_ConsultarCliente()
+        {
+            ClsClientes_Negocio ObjetoConsultar = new ClsClientes_Negocio();
+        }
+
         private void txtContacEmpresa_KeyPress(object sender, KeyPressEventArgs e)
         {
 
@@ -283,10 +289,8 @@ namespace Presentacion
                 e.Handled = true;
             }
         }
-        protected void Ftn_AgregarCliente()
+        public Dictionary<string, String> MapearInfo2()
         {
-            ClsClientes_Negocio ObjetoCliente = new ClsClientes_Negocio();
-            var cliente = new Dictionary<string, String>();
             cliente["id"] = txtId.Text;
             cliente["nombres"] = txtNombres.Text;
             cliente["contacto"] = txtContacto.Text;
@@ -297,12 +301,87 @@ namespace Presentacion
             cliente["contactoE"] = txtContacEmpresa.Text;
             cliente["sexo"] = Convert.ToString(cbxSexo.SelectedValue);
             cliente["estado"] = Convert.ToString(cbxCivil.SelectedValue);
+
+            return cliente;
+        }
+        public void MapearInfo()
+        {
+            cliente["id"] = txtId.Text;
+            cliente["nombres"] = txtNombres.Text;
+            cliente["contacto"] = txtContacto.Text;
+            cliente["correo"] = txtCorreo.Text;
+            cliente["edad"] = txtEdad.Text;
+            cliente["ingresos"] = txtIngresos.Text;
+            cliente["empresa"] = txtEmpresa.Text;
+            cliente["contactoE"] = txtContacEmpresa.Text;
+            cliente["sexo"] = Convert.ToString(cbxSexo.SelectedValue);
+            cliente["estado"] = Convert.ToString(cbxCivil.SelectedValue);
+        }
+        protected void Ftn_AgregarCliente()
+        {
+            ClsClientes_Negocio ObjetoCliente = new ClsClientes_Negocio();
+            MapearInfo();
             ObjetoCliente.Fnt_AgregarCliente(cliente);
             lblMensaje.Text = ObjetoCliente.msn;
         }
         private void guardarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Ftn_AgregarCliente();
+        }
+
+        protected void Fnt_Limpiar()
+        {
+            txtId.Clear();
+            txtNombres.Clear();
+            txtContacto.Clear();
+            txtCorreo.Clear();
+            txtEdad.Clear();
+            txtIngresos.Clear();
+            txtEmpresa.Clear();
+            txtContacEmpresa.Clear();
+            cbxSexo.SelectedIndex = 0;
+            cbxCivil.SelectedIndex = 0;
+            contador = 0;
+            var = "";
+            txtId.Focus();
+        }
+
+        private void nuevoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Fnt_Limpiar();
+        }
+
+        private void Fnt_ActualizarCliente()
+        {
+            ClsClientes_Negocio ObjetoActualizar = new ClsClientes_Negocio();
+            ObjetoActualizar.Fnt_ActualizarCliente(txtId.Text, txtContacto.Text, txtCorreo.Text, txtEdad.Text, txtIngresos.Text, txtEmpresa.Text, txtContacEmpresa.Text, cbxCivil.SelectedIndex);
+        }
+
+        private void actualizarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Fnt_ActualizarCliente();
+
+        }
+
+        private void btnEnter_Click(object sender, EventArgs e)
+        {
+            ClsClientes_Negocio ObjetoNegocio = new ClsClientes_Negocio();
+            MapearInfo();
+            txtNombres.Text = cliente["id"];
+            cliente = ObjetoNegocio.Fnt_ConsultarCliente(cliente);
+
+            //MapearInfo();
+            txtNombres.Text = cliente["nombres"];
+            txtCorreo.Text = cliente["correo"];
+            txtEdad.Text = cliente["edad"];
+            txtContacto.Text = cliente["contacto"];
+            txtIngresos.Text = cliente["ingresos"];
+            txtEmpresa.Text = cliente["empresa"];
+            txtContacEmpresa.Text = cliente["contactoE"];
+            txtNombres.Text = cliente["nombres"];
+            cbxSexo.SelectedIndex = Convert.ToInt32(cliente["sexo"]);
+            cbxCivil.SelectedIndex = Convert.ToInt32(cliente["estado"]);
+            lblMensaje.Text = ObjetoNegocio.msn;
         }
     }
 }

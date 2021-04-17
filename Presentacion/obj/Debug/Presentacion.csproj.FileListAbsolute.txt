@@ -29,3 +29,4 @@ C:\Users\Manuel Lopez\source\repos\App_Creditos\Presentacion\obj\Debug\Presentac
 C:\Users\Manuel Lopez\source\repos\App_Creditos\Presentacion\obj\Debug\Presentacion.exe
 C:\Users\Manuel Lopez\source\repos\App_Creditos\Presentacion\obj\Debug\Presentacion.pdb
 C:\Users\Manuel Lopez\source\repos\App_Creditos\Presentacion\obj\Debug\Presentacion.FrmPrincipal.resources
+C:\Users\Manuel Lopez\source\repos\App_Creditos\Presentacion\obj\Debug\Presentacion.FrmCreditos.resources
